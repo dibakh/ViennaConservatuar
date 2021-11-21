@@ -10,6 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatIconModule } from '@angular/material/icon';
 import { RegisterationComponent } from './registeration/registeration.component';
+import { MatTabsModule } from '@angular/material/tabs';
 
 @NgModule({
   declarations: [AppComponent, LoginComponent, RegisterationComponent],
@@ -22,6 +23,7 @@ import { RegisterationComponent } from './registeration/registeration.component'
     FormsModule,
     MatInputModule,
     MatIconModule,
+    MatTabsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
