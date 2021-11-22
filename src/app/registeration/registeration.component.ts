@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { FormControl, Validators } from '@angular/forms';
 
 @Component({
-  selector: 'vienna-login',
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.scss']
+  selector: 'vienna-registeration',
+  templateUrl: './registeration.component.html',
+  styleUrls: ['./registeration.component.scss']
 })
-export class LoginComponent {
+export class RegisterationComponent  {
 
   constructor() { }
 
@@ -20,5 +20,6 @@ export class LoginComponent {
 
     return this.email.hasError('email') ? 'Not a valid email' : '';
   }
+
 
 }
